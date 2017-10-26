@@ -83,7 +83,7 @@ public class Anchor implements TabLayout.OnTabSelectedListener, ObservableScroll
         //避免滚动的过程中点击tab
         if (state == MotionEvent.ACTION_UP) {
             forceScroll = true;
-            mScrollView.smoothScrollTo(0, mAimingPointList.get(position).getTop() - TabLayoutUtil.dip2px(mContext, mCoverHeight));
+            mScrollView.smoothScrollTo(0, mAimingPointList.get(position).getTop() - (int)mCoverHeight);
 
         }
 
