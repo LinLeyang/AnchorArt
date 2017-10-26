@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_goods_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/nice_light_green"
+    android:paddingBottom="15dp"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="商品详情"
+        android:textColor="@color/antiquewhite"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/v_bottom_left_line"
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/tv_bottom"
+        android:background="@color/antiquewhite" />
+
+    <View
+        android:id="@+id/v_bottom_right_line"
+        android:layout_width="20dp"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/tv_bottom"
+        android:background="@color/antiquewhite" />
+</RelativeLayout>
