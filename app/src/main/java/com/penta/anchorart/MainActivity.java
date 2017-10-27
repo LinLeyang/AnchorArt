@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             addAimingPoint(mOutside_tab, pointText[i]);
         }
 
-        new Anchor(mInside_tab, mOutside_tab, mScrollView, mAimingPointList, this, 50);
+        new Anchor(mInside_tab, mOutside_tab, mScrollView, mAimingPointList, this, 0, 50);
 
     }
 
