@@ -81,7 +81,7 @@ public class Anchor implements TabLayout.OnTabSelectedListener, ObservableScroll
         int position = tab.getPosition();
         mOutside_tab.getTabAt(position).select();
         mInside_tab.getTabAt(position).select();
-        mOutside_tab.setVisibility(View.VISIBLE);
+        //mOutside_tab.setVisibility(View.VISIBLE);
 
         //避免滚动的过程中点击tab
         if (state == MotionEvent.ACTION_UP) {
